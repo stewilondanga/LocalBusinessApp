@@ -54,7 +54,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/radioButton4"
                 android:layout_weight="1"/>
+            <RadioButton
+                android:text="Sad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton5"
+                android:layout_weight="1"/>
         </RadioGroup>
     </LinearLayout>
-
 </LinearLayout>
