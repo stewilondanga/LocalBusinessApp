@@ -37,7 +37,7 @@ public class MoodDialogFragment extends DialogFragment {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("testing output", selectedRadioButton.getText().toString();
+                Log.d("testing output", selectedRadioButton.getText().toString());
                 dismiss();
             }
         });

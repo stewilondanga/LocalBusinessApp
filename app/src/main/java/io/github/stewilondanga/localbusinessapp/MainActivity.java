@@ -7,8 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
+
 
 public class MainActivity extends AppCompatActivity {
+    private Button mFindBusinessButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        moodButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentManager fm = getFragmentManager();
-                MoodDialogFragment moodDialogFragment = new MoodDialogFragment();
-                moodDialogFragment.show(fm, "Sample Fragment");
+        //moodButton.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+            //public void onClick(View v) {
+              //  FragmentManager fm = getFragmentManager();
+                //MoodDialogFragment moodDialogFragment = new MoodDialogFragment();
+                //moodDialogFragment.show(fm, "Sample Fragment");
             }
-        });
+        public Button getmFindBusinessButton() {
+            return mFindBusinessButton;
+        }
+
+
     }
-}
