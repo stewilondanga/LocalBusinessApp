@@ -31,6 +31,12 @@
             android:padding="10dp">
 
             <RadioButton
+                android:text="Great"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton1"
+                android:layout_weight="1"/>
+            <RadioButton
                 android:text="Good"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
