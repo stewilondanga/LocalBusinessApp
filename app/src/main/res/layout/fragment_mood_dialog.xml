@@ -60,6 +60,12 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/radioButton5"
                 android:layout_weight="1"/>
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitButton"
+                android:layout_weight="1"/>
         </RadioGroup>
     </LinearLayout>
 </LinearLayout>
