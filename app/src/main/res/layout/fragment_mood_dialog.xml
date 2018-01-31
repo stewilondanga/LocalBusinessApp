@@ -6,5 +6,16 @@
     android:orientation="vertical"
     android:id="@+id/baseLayout">
 
+    <TextView
+        android:text="How are you feeling today?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoodLabel"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="monospace"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
 
 </LinearLayout>
